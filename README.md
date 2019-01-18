@@ -1,6 +1,8 @@
 # Clickstream-Data-Visualization
-Datasets used- MSNBC and shopping site clickstream data
+Datasets used- MSNBC and shopping site clickstream data.
+
 ETL of the dataset,data mining and pruning using VMSP algorithm in JAVA and Jaccard Index respectively.
+
 Visualization(D3.js) is at three levels of abstraction:
 1.Context view shows the context of the pattern being examined in the other views.
 2.Pattern view shows the filtered patterns containing the context in question.
