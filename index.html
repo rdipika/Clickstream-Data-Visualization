@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://d3js.org/d3-transition.v1.min.js"></script>
+	<script src="seq.js"></script>
+</head>
+<body>
+	<div id="tooltip" class="hidden">
+        <p><span id="value"></p>
+	</div>
+	<h2>Clickstream Data Analysis</h2>
+	<h3>Select Dataset : 
+		<select onchange="whichDS()" id="ds">
+			<option name="ds1" value="1">Dataset-1</option>
+			<option name="ds2" value="2">Dataset-2</option>
+		</select>
+	</h3>
+	<div class='parent flex-parent'>
+		<div class="flex-child1" id="content" >
+			<h3>Content View</h3>
+			<div id="icon"> </div> 
+		</div>
+		<div class="flex-child2" style="overflow:hidden; overflow-x: scroll; white-space: nowrap;" id="detail" >
+			<h3>Pattern View</h3>
+			<div style="display: inline-block;" id="dyn">
+			</div>
+		</div>
+		<div class="flex-child3" style="overflow:hidden; overflow-x: scroll; white-space: nowrap;" id="sequence" >
+			<h3>Sequence View</h3>
+			<div style="height:120px"id="bars"> 
+			</div>
+			<div style="height:400px;" id="sequenc"></div>
+		</div>
+		<div class="flex-child4" id="pageCat" >
+			<h3>Page Category</h3>
+		</div>
+	</div>
+	<script src="PageCategory.js"></script>
+	<script src="ContentView.js"></script>
+	
+	  
+</body>
+</html>

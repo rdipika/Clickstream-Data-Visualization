@@ -1,0 +1,165 @@
+h2{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #66030e;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 25px;
+}
+h3, #ds{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: SlateBlue;
+	font-weight: bold;
+	font-size: 15px;
+}
+.flex-parent {
+	display: flex;
+}
+.flex-parent1 {
+	display: flex;
+}
+
+.flex-child5 {
+	margin: 0 0.7%;
+	flex: 0.4;
+}
+.flex-child6 {
+	margin: 0 0.7%;
+	flex: 0.4;
+}
+.flex-child1 {
+	margin: 0 0.7%;
+	flex: 0.4;
+}
+.flex-child2 {
+	margin: 0 0.7%;
+	flex: 1.3;
+}
+.flex-child3 {
+	margin: 0 0.7%;
+	flex: 1.3;
+}
+.flex-child4 {
+	margin: 0 0.3%;
+	flex: 0.33;
+}
+#content {
+  border-right:  solid grey;
+  height:640px
+}
+#detail {
+  border-right:  solid grey;
+  height: 640px
+}
+#dyn {
+  height:540px
+}
+
+#sequenc{
+  height:640px
+}
+#sequence {
+  border-right:  solid grey;
+  height:640px
+}
+#icon{
+	margin-left: 43%;
+}
+#pageCat{
+	height:570px
+}
+#dicon{
+	margin-left: 43%;
+	width:18px;
+	height:18px; 
+	float:left;
+}
+#hd{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.axis path,
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+      font-family: sans-serif;
+      font-size: 11px;
+  }
+  .sequence{
+        top:110px;
+        position: relative;}
+
+    #tooltip {
+        position: absolute;
+        width: 70px;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 0px 6px #7861A5;
+        pointer-events: none;
+      }
+
+      #tooltip.hidden {
+        display: none;
+      }
+
+      #tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      
+      rect.selection {
+        stroke          : #333;
+        stroke-dasharray: 4px;
+        stroke-opacity  : 0.5;
+        fill            : transparent;
+      }
+
+      rect.cell-border {
+        stroke: #eee;
+        stroke-width:0.3px;   
+      }
+
+      rect.cell-selected {
+        stroke: rgb(51,102,153);
+        stroke-width:0.5px;   
+      }
+
+      rect.cell-hover {
+        stroke: None;
+        stroke-width:3px;  
+
+      }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
+      text.text-selected {
+        fill: #000;
+      }
+
+      text.text-highlight {
+        fill: #c00;
+      }
+      text.text-hover {
+        fill: #00C;
+      }
+
+
+
